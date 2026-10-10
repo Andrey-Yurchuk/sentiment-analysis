@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- AI-инструменты (Cursor, Claude Code, MCP) ---
+.cursor/
+.cursorignore
+AGENTS.md
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# --- Локальные файлы ---
+docs/
+
+# --- Данные и артефакты ---
+data/*
+!data/.gitkeep
+models/
+*.zip

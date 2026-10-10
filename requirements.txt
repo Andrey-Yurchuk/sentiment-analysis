@@ -1,0 +1,26 @@
+# Зависимости проекта (Python 3.12)
+
+# Таблицы и массивы
+pandas==3.0.6
+numpy==2.5.3
+
+# TF-IDF, MLPClassifier, train_test_split, метрики
+scikit-learn==1.9.1
+
+# Лемматизация русского языка
+pymorphy3==2.0.6
+pymorphy3-dicts-ru==2.4.417150.4580142
+
+# Графики
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Нейросеть на PyTorch
+# В Docker ставится CPU-сборка, см. Dockerfile
+torch==2.14.1
+
+# Скачивание датасета
+requests==2.34.2
+
+# Среда для запуска ноутбука
+jupyterlab==4.6.4
